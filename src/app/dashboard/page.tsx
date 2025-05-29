@@ -9,12 +9,10 @@ export default async function Dashboard() {
 
   if (!session?.user) {
     // Se o usuário não estiver autenticado, redirecione para a página de login
-    redirect('/');
+    redirect('/')
   }
 
   console.log(session.user)
-
-  //! VIDEO TEMPO 47min - Dashboard
 
   return (
     <div className="p-4">
