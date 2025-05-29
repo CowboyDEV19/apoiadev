@@ -43,7 +43,7 @@ export default function Home() {
                     size="lg"
                     className="bg-amber-500 hover:bg-amber-600 text-white font-medium px-8 h-12"
                   >
-                    Começar agora
+                    Cadastra Agora 
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </form>
